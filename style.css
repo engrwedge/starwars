@@ -38,7 +38,7 @@ body {
     }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 480px) {
     body {
         margin: 0;
         height: 100%;
