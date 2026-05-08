@@ -34,9 +34,19 @@ body {
         margin: 0;
         height: 100%;
         background-image: linear-gradient(180.43deg, rgba(0, 0, 0, 0.3) 100%), url(./templates/backgroundimg2.jpg);
-        background-size: auto;
+        background-size: cover;
     }
-} 
+}
+
+@media (max-width: 393px) {
+    body {
+        margin: 0;
+        height: 100%;
+        background-image: linear-gradient(180.43deg, rgba(0, 0, 0, 0.3) 100%), url(templates/backgroundimg3.jpg);
+        background-size: cover;
+        background-position: left 20px;
+    }
+}
 
 @media (max-width: 640px) {
     #container1 {
